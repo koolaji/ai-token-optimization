@@ -25,6 +25,21 @@
 - [ ] Batch API for non-urgent bulk work
 - [ ] Token usage and success logged
 
+## Coding
+
+- [ ] Pointed at file/function/test instead of pasting files
+- [ ] Ran only the failing test, with quiet output
+- [ ] `vendor/`, `target/`, `bin/`, `obj/`, `.venv/`, generated code excluded
+
+## RAG / embeddings / LangChain
+
+- [ ] Small Top-K + relevance threshold
+- [ ] Chunks split on natural boundaries, low overlap, under the embedding model's input limit
+- [ ] Unchanged docs not re-embedded
+- [ ] History trimmed or summarized
+- [ ] Agent call/tool-call limits set
+- [ ] Token usage measured per run
+
 ## Avoid
 
 ```text
@@ -35,4 +50,6 @@ Largest model for everything
 "Explain everything" when you need one line
 One endless session for all tasks
 Unlimited agent loops and retries
+Top-K 20 "just in case"
+Re-embedding everything on every deploy
 ```

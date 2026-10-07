@@ -26,6 +26,10 @@ Fewer tokens means lower cost, faster answers, and usually **better** answers: m
 | [Instruction Files, Skills & Tools](docs/03-instructions-skills-tools.md) | `CLAUDE.md`, Skills, MCP servers |
 | [Building AI Automations](docs/04-automation.md) | Scripts, bots, and CI jobs that call LLM APIs |
 | [Checklist](docs/05-checklist.md) | One-page review before you hit Enter |
+| [Coding: Python, Go, Java, .NET](docs/06-coding-by-language.md) | Quiet build/test commands, stack traces, what to keep out of context |
+| [RAG](docs/07-rag.md) | Top-K, thresholds, chunking, reranking, dedup |
+| [Embedding Models](docs/08-embeddings.md) | Re-indexing, input limits, caching, choosing a model |
+| [LangChain](docs/09-langchain.md) | Usage tracking, retrievers, splitters, history trimming, agent limits |
 
 ## License
 
