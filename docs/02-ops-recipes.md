@@ -85,4 +85,6 @@ sed -E 's/(password|token|secret|key)([^:=]*[:=]\s*).*/\1\2***MASKED***/I' confi
 
 ## Automate it
 
-CLI output-filtering proxies (for example [RTK](https://github.com/rtk-ai/rtk)) can apply this kind of filtering to every command an AI assistant runs.
+CLI output-filtering proxies (for example [RTK](https://github.com/rtk-ai/rtk)) can apply this kind of filtering to every command an AI assistant runs. See [Token-Saving Tools](10-token-saving-tools.md).
+
+Or package a recipe as a skill with a filtering script — see [Creating Skills](12-creating-skills.md).

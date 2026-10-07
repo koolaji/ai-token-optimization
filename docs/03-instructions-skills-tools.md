@@ -29,6 +29,8 @@ A Skill is loaded only when the task needs it, so it's the right home for repeat
 - Keep it short; put big reference material in separate files the Skill loads only when needed.
 - Few examples: one good example usually beats five similar ones.
 
+See [Well-Known Skills](11-well-known-skills.md) and [Creating Skills](12-creating-skills.md).
+
 ## Tools / MCP servers
 
 Every connected MCP server adds its tool definitions to context, even when unused.

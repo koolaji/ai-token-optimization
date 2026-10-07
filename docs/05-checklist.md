@@ -15,6 +15,8 @@
 - [ ] `CLAUDE.md` / `AGENTS.md` short, no duplicated rules
 - [ ] Task-specific instructions moved into Skills
 - [ ] Only needed MCP servers enabled
+- [ ] RTK (or similar) installed; usage measured with ccusage
+- [ ] Only skills the team uses are installed (`/skill-doctor`)
 
 ## Automations
 

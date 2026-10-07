@@ -30,6 +30,9 @@ Fewer tokens means lower cost, faster answers, and usually **better** answers: m
 | [RAG](docs/07-rag.md) | Top-K, thresholds, chunking, reranking, dedup |
 | [Embedding Models](docs/08-embeddings.md) | Re-indexing, input limits, caching, choosing a model |
 | [LangChain](docs/09-langchain.md) | Usage tracking, retrievers, splitters, history trimming, agent limits |
+| [Token-Saving Tools](docs/10-token-saving-tools.md) | RTK, caveman, context-mode, Serena, Context7, ccusage, and more |
+| [Well-Known Skills](docs/11-well-known-skills.md) | Official, engineering, DevOps, and per-language skill repos |
+| [Creating Skills](docs/12-creating-skills.md) | Write token-efficient skills — with a [ready-to-copy example](examples/skills/k8s-pod-triage) |
 
 ## License
 
